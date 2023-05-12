@@ -1,0 +1,14 @@
+{
+  "episodes": [
+    { "id": 1, "title": "Post 1", "slug": "ep-001", "number":0 },
+    { "id": 2, "title": "Post 2", "slug": "ep-001", "number":0 },
+    { "id": 3, "title": "Post 3", "slug": "ep-001", "number":0 }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "episodeId": 1 },
+    { "id": 2, "body": "some comment", "episodeId": 1 }
+  ],
+  "profile": {
+    "name": "mo-zero"
+  }
+}
