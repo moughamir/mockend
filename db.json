@@ -1,14 +1,79 @@
 {
-  "episodes": [
-    { "id": 1, "title": "Post 1", "slug": "ep-001", "number":0 },
-    { "id": 2, "title": "Post 2", "slug": "ep-001", "number":0 },
-    { "id": 3, "title": "Post 3", "slug": "ep-001", "number":0 }
+  "sessions": [
+    {
+      "number": 0,
+      "subject": "The AI dilemna"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "episodeId": 1 },
-    { "id": 2, "body": "some comment", "episodeId": 1 }
+  "episodes": [
+    {
+      "id": "s00e00",
+      "title": "What is the Feed Mo'Feed?",
+      "slug": "what-is-the-feed-mo-feed",
+      "description":"Dori mi, Amino, loremu ipsume doliri",
+      "postId": 0
+    }
+  ],
+  "comments": [],
+  "posts": [
+    {
+      "id": 0,
+      "title": "Lorem ipsume",
+      "description": "Dori mi, Amino, loremu ipsume doliri",
+      "content": "",
+      "relatedEp": "s00e00"
+    }
   ],
   "profile": {
-    "name": "mo-zero"
+    "name": "mo-feed",
+    "cover": "",
+    "showName":"Feed Mo'Feed",
+    "contact": 
+      {
+        "email": "mofeed@omnizya.com",
+        "telegram": "https://t.me/@FeedMoFeed"
+      }
+  },
+  "links": {
+    "streaming": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/"
+      },
+      {
+        "platform": "Google Podcast",
+        "url": "https://podcast.google.com/"
+      },
+      {
+        "platform": "Apple Podcasts",
+        "url": "https://podcast.apple.com/"
+      },
+      {
+        "platform": "Samsung Podcast",
+        "url": "https://podcast.samsung.com/"
+      },
+      {
+        "platform": "RSS",
+        "url": "https://anchor.fm/mofeed/feed.rss"
+      }
+    ],
+    "social": [
+      {
+        "platform": "facebook",
+        "url": "https://facebook.com/mofeed"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://instagram.com/mofeed"
+      },
+      {
+        "platform": "tiktok",
+        "url": "https://tiktok.com/@mofeed"
+      },
+      {
+        "platform": "youtube",
+        "url": "https://youtube.com/@mofeed"
+      }
+    ]
   }
 }
